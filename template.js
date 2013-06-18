@@ -1,6 +1,6 @@
 'use strict';
 
-exports.description = 'Create Arale module.';
+exports.description = 'Create a CMD module.';
 
 exports.notes = '';
 
@@ -11,12 +11,12 @@ exports.template = function(grunt, init, done) {
   grunt.util._.extend(init.prompts, {
     family: {
       message: 'your CMD family',
-      default: 'arale',
+      default: '',
       warning: ''
     }
   });
 
-  init.process({type: 'arale'}, [
+  init.process({type: 'cmd'}, [
     // Prompt for these values.
     init.prompt('name'),
     init.prompt('family'),
