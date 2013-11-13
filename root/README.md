@@ -6,7 +6,18 @@
 
 ---
 
-## 使用说明
+## Usage
 
 
-## API
+````html
+<div class="{%= family %}-{%= name %}">
+</div>
+````
+
+```javascript
+seajs.use('{%= name %}', function({%= name %}) {
+
+});
+```
+
+## Api
