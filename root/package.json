@@ -18,7 +18,10 @@
   "keywords": [],
   "licenses": "{%= licenses %}",
   "spm": {
-    "output": ["{%= name %}.js"],
+    "output": [
+      "{%= name %}.js",
+      "{%= name %}.css"
+    ],
     "alias": {},
     "devAlias": {},
     "engines": {}
