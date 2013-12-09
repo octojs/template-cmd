@@ -31,6 +31,10 @@ exports.template = function(grunt, init, done) {
 
     var files = init.filesToCopy(props);
 
+    props.varName = props.name.replace(/\-(\w)/g, function(all, letter){
+      return letter.toUpperCase();
+    });
+
     // Actually copy (and process) files.
     init.copyAndProcess(files, props);
 

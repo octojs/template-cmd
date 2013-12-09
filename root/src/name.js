@@ -1,7 +1,7 @@
 define(function(require, exports, module) {
 
-  var {%= name %};
+  var {%= varName %};
 
-  module.exports = {%= name %};
+  module.exports = {%= varName %};
 
 });

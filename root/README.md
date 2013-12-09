@@ -15,7 +15,7 @@
 ````
 
 ```javascript
-seajs.use('{%= name %}', function({%= name %}) {
+seajs.use('{%= name %}', function({%= varName %}) {
 
 });
 ```
