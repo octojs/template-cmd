@@ -25,7 +25,6 @@ exports.template = function(grunt, init, done) {
     init.prompt('description'),
     init.prompt('repository'),
     init.prompt('homepage'),
-    init.prompt('bugs'),
     init.prompt('licenses', 'MIT')
   ], function(err, props) {
 
