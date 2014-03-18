@@ -5,7 +5,7 @@ define(function (require, exports, module) {
      */
     var $ = require('$'),
         moduleFactory = require('crystal'),
-        helper = require('platform/<%= name%>/common/helper'),
+        helper = require('platform/{%= name%}/common/helper'),
         uiTpl = require('./ui.handlebars')
     //Need to delete!!
     alert(uiTpl({"title": "test data", "body": "it is the test data,please delete it later!"}))
