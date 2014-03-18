@@ -1,29 +1,32 @@
 {
-  "family": "{%= family %}",
-  "name": "{%= name %}",
-  "version": "{%= version %}",
-  "description": "{%= description %}",
-  "homepage": "{%= homepage %}",
-  "author": "{%= author %}",
-  "maintainers": [
-    "{%= author %}"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "{%= repository %}"
-  },
-  "bugs": {
-    "url": ""
-  },
-  "keywords": [],
-  "licenses": "{%= licenses %}",
-  "spm": {
-    "output": [
-      "{%= name %}.js",
-      "{%= name %}.css"
+    "family"     : "{%= family %}",
+    "name"       : "{%= name %}",
+    "version"    : "{%= version %}",
+    "description": "{%= description %}",
+    "homepage"   : "{%= homepage %}",
+    "author"     : "{%= author %}",
+    "maintainers": [
+        "{%= author %}"
     ],
-    "alias": {},
-    "devAlias": {},
-    "engines": {}
-  }
+    "repository" : {
+        "type": "git",
+        "url" : "{%= repository %}"
+    },
+    "bugs"       : {
+        "url": ""
+    },
+    "keywords"   : [],
+    "licenses"   : "{%= licenses %}",
+    "spm"        : {
+        "output"  : [
+            "{%= name %}.js",
+            "{%= name %}.css"
+        ],
+        "alias"   : {
+            "$"      : "$",
+            "crystal": "alinw/crystal/1.0.0/crystal"
+        },
+        "devAlias": {},
+        "engines" : {}
+    }
 }

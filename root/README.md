@@ -2,7 +2,7 @@
 
 ---
 
-A nice CMD module.
+A platform project.
 
 ---
 
