@@ -2,8 +2,8 @@
     "src/modules/name.index.home/main.js"      : "src/modules/{%= name %}.index.home/main.js",
     "src/modules/name.index.left/main.js"      : "src/modules/{%= name %}.index.left/main.js",
     "src/modules/name.index.left/ui.handlebars": "src/modules/{%= name %}.index.left/ui.handlebars",
-    "src/modules/name.index/en.js"             : "src/modules/{%= name %}.index/en.js",
-    "src/modules/name.index/zh-cn.js"          : "src/modules/{%= name %}.index/zh-cn.js",
+    "src/i18n/name.index/en.js"             : "src/i18n/{%= name %}.index/en.js",
+    "src/i18n/name.index/zh-cn.js"          : "src/i18n/{%= name %}.index/zh-cn.js",
     "src/css/name.index.css"                   : "src/css/{%= name %}.index.css",
     "tests/name-spec.js"                       : "tests/{%= name %}-spec.js"
 }

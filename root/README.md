@@ -1,4 +1,4 @@
-# {%= name %}
+# {%= family%}/{%= name %}
 
 ---
 
@@ -8,15 +8,15 @@ A platform project.
 
 ## Usage
 
-It is very easy to use this module.
+```html
 
-````html
-<div class="{%= family %}-{%= name %}">
+<div id="content">
+
 </div>
-````
+```
 
 ```javascript
-seajs.use('{%= name %}', function({%= varName %}) {
+seajs.use('{%= family%}/{%= name %}/{%= version%}/modules/{%= name %}.index.home/main', function() {
 
 });
 ```

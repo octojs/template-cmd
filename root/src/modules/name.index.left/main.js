@@ -5,10 +5,10 @@ define(function (require, exports, module) {
      */
     var $ = require('$'),
         moduleFactory = require('crystal'),
-        helper = require('platform/{%= name%}/common/helper'),
+        helper = require('./../../common/helper'),
         uiTpl = require('./ui.handlebars')
     //Need to delete!!
-    alert(uiTpl({"title": "test data", "body": "it is the test data,please delete it later!"}))
+    alert(uiTpl({"title": "test data", "body": "it is the test data,please delete it later!"}, {helpers: helper}))
     /**
      * module
      * ===================================================
@@ -38,4 +38,7 @@ define(function (require, exports, module) {
      * tools
      * ===================================================
      */
+    function someFn() {
+        return 'something'
+    }
 })

@@ -23,7 +23,7 @@
         ],
         "alias"   : {
             "$"      : "$",
-            "crystal": "alinw/crystal/1.0.0/crystal"
+            "crystal": "alinw/crystal/1.0.1/crystal"
         },
         "devAlias": {},
         "engines" : {}
