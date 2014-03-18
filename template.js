@@ -11,7 +11,7 @@ exports.template = function(grunt, init, done) {
   grunt.util._.extend(init.prompts, {
     family: {
       message: 'your CMD family',
-      default: '',
+      default: 'platform',
       warning: ''
     }
   });
