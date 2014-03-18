@@ -19,7 +19,7 @@
     "licenses"   : "{%= licenses %}",
     "spm"        : {
         "output"  : [
-            "**.*"
+            "**/*"
         ],
         "alias"   : {
             "$"      : "$",
